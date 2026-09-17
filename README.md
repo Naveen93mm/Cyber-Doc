@@ -780,3 +780,67 @@ Verify in Splunk Web (`Search & Reporting` → `index=*`) that events from the S
 ```
 Recon → Web → Exploit/Defend → SOC → DevSecOps → Mobile → Forensics
 ```
+
+
+9. Full Tool Directory (12 Categories)
+
+A complete category-wise index of every tool covered across the course, plus the reporting stage.
+
+🔎 1. Reconnaissance & Network Security
+Tool	Purpose
+Nmap	Network scanning, port & service discovery
+Wireshark	Packet capture & network traffic analysis
+Netcat (NC)	Connectivity testing, banner grabbing, troubleshooting
+🌐 2. Web Security
+Tool	Purpose
+Gobuster	Directory/file enumeration
+Nikto	Web server security scanning
+Burp Suite	Web application security testing
+OWASP Juice Shop	Vulnerable web-app security lab
+SQLMap	SQL Injection testing
+🔐 3. Password Security
+Tool	Purpose
+Hydra	Authorized password/login auditing
+John the Ripper	Password hash auditing
+💥 4. Exploitation
+Tool	Purpose
+Metasploit Framework	Authorized vulnerability/exploitation validation
+🛡️ 5. Vulnerability Management
+Tool	Purpose
+OpenVAS / Greenbone	Vulnerability assessment
+🔥 6. Linux Security & Hardening
+Tool	Purpose
+UFW	Linux firewall
+Fail2Ban	Brute-force protection
+journalctl	System/service log analysis
+🏢 7. SOC & SIEM
+Tool	Purpose
+Splunk	SIEM, log monitoring, alerting & dashboards
+ELK Stack	Log collection, search & visualization
+☁️ 8. Cloud Security
+Tool	Purpose
+AWS IAM	Identity & access management
+AWS Security Groups	Instance-level network access control
+🔄 9. DevSecOps
+Tool	Purpose
+Git	Source-code version control
+GitHub	Remote code repository & collaboration
+Jenkins	CI/CD automation
+GitHub Actions	CI/CD workflow automation
+SonarQube	SAST / code quality & security analysis
+Trivy	Container / dependency / IaC security scanning
+Docker	Containerization
+Docker Hub	Container image registry
+📱 10. Mobile Security
+Tool	Purpose
+MobSF	Mobile application security analysis
+APKTool	Android APK reverse engineering / resource analysis
+🕵️ 11. Digital Forensics
+Tool	Purpose
+Autopsy	Digital forensic investigation
+FTK Imager	Disk imaging & evidence acquisition
+📝 12. Reporting
+Tool	Purpose
+SysReptor	Pentest reporting platform — demo: sysreptor.com/demo
+
+SysReptor is used at the end of an engagement to turn raw findings (from Nmap, Burp, MobSF, SQLMap, etc.) into a structured, client-ready penetration test report — findings, evidence, risk ratings, and recommendations, following the same Finding → Evidence → Impact → Risk Level → Recommendation format used earlier in these notes.
